@@ -1,0 +1,9 @@
+{
+    "type": "symbols",
+    "source": "line",
+    "paint": {
+        "line-color": "gold",
+        "line-width": 1
+        }
+
+}
