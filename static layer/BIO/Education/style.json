@@ -1,0 +1,25 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+        "interpolate",
+        ["linear"],
+        ["get", "EDU_ALL"],
+        5,
+        "#F2F12D",
+        10,
+        "#EED322",
+        15,
+        "#E6B71E",
+        20,
+        "#DA9C20",
+        25,
+        "#CA8323",
+        30,
+        "#B86B25",
+        35,
+        "#B86B25"
+        ],
+        "fill-opacity": 0.75
+        }
+}

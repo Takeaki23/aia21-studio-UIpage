@@ -1,0 +1,65 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+        "interpolate",
+        ["linear"],
+        ["get", "young"],
+        0,
+        "#F2F12D",
+        5,
+        "#E6B71E",
+        10,
+        "#DA9C20",
+        15,
+        "#CA8323",
+        20,
+        "#B86B25",
+        25,
+        "#B86B25"
+        ],
+        "fill-opacity": 0.75
+        }
+}
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+        "interpolate",
+        ["linear"],
+        ["get", "adult"],
+        50,
+        "#F2F12D",
+        55,
+        "#DA9C20",
+        60,
+        "#CA8323",
+        65,
+        "#B86B25",
+        70,
+        "#B86B25"
+        ],
+        "fill-opacity": 0.75
+        }
+}
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+        "interpolate",
+        ["linear"],
+        ["get", "old"],
+        15,
+        "#F2F12D",
+        20,
+        "#DA9C20",
+        25,
+        "#CA8323",
+        30,
+        "#B86B25",
+        35,
+        "#B86B25"
+        ],
+        "fill-opacity": 0.75
+        }
+}
