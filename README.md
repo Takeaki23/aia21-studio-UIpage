@@ -46,6 +46,7 @@ Structure for Static layer
     
 * Urban Diversity  
     * &ensp;Greeness  
+        &emsp;trees.geojson (Show as geo: "tree_index" , Attributes: "name", "tree_counts")  
     * &ensp;Public Restaurant  
     * &ensp;Defribilator  
     * &ensp;Drinking Water  

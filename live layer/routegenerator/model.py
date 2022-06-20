@@ -3,9 +3,11 @@ from random import random
 
 import numpy  # example import to add to requirements.txt
 
-def call(Age, Gender, Ethnicities, SpecialNeedsVisual, SpecialNeedsPhysical, WithChild, Formality, Locality, Greenness, UrbanDensity):
+def call(lon1, lat1, lon2, lat2, Age, Gender, Ethnicities, SpecialNeedsVisual, SpecialNeedsPhysical, WithChild, Formality, Locality, Greenness, UrbanDensity):
     sleep(1)  # mimicking computation time...
 
+    start_point = (lon1, lat1) # These are from user inputs as a point 
+    end_point = (lon2, lat2) # These are from user inputs as a point
     Age = "adult" # Select from "young", "adult", "old"
     Gender = "male" # Select from "male", "female", "other"
     Ethnicities = "Asian" # Select from "Afro", "Asian", "Europian", "Latinx", "Mid East", "South Asian"

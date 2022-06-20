@@ -3,12 +3,10 @@
     "paint": {
         "line-color": "darkgreen",
         "line-width": 1,
-        // 'line-gradient' must be specified using an expression
-        // with the special 'line-progress' property
         "line-gradient": [
         "interpolate",
         ["linear"],
-        ["line-progress"],
+        ["tree_index"],
         0,
         "white",
         0.1,
