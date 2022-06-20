@@ -28,15 +28,26 @@ Structure for Static layer
             &emsp;&ensp;young.geojson  
             &emsp;&ensp;style.json  
     * &ensp;Ethnic diversity  
-        &emsp;Ethnicity  
-            &emsp;&ensp;div_ethnic_diversity_index.geojson (Show as geo: "diversity_index" , Attributes: "afro_ratio", "asian_ratio", "mid_east_ratio", "south_asian_ratio", "latinx_ratio", "european_ratio")  
-            &emsp;&ensp;style.json  
-        &emsp;Afro  
-        &emsp;Asian  
-        &emsp;Europian  
-        &emsp;Latinx  
-        &emsp;Mid_east  
-        &emsp;South_asian  
+        &emsp;div_ethnic_diversity_index.geojson (Show as geo: "diversity_index" , Attributes: "afro_ratio", "asian_ratio", "mid_east_ratio", "south_asian_ratio", "latinx_ratio", "european_ratio")  
+        &emsp;style.json  
+            &emsp;Afro Carribean  
+                &emsp;&ensp;div_afro_carribean_heatmap.geojson  
+                &emsp;&ensp;style.json  
+            &emsp;Asian  
+                &emsp;&ensp;div_asian_heatmap.geojson  
+                &emsp;&ensp;style.json  
+            &emsp;Europian  
+                &emsp;&ensp;div_european_origin_heatmap.geojson  
+                &emsp;&ensp;style.json  
+            &emsp;Latinx  
+                &emsp;&ensp;div_latin_american_heatmap.geojson  
+                &emsp;&ensp;style.json  
+            &emsp;Mid_east  
+                &emsp;&ensp;div_mid_east_heatmap.geojson  
+                &emsp;&ensp;style.json  
+            &emsp;South_asian  
+                &emsp;&ensp;div_south_asian_heatmap.geojson  
+                &emsp;&ensp;style.json  
     * &ensp;Income  
         &emsp;Income.geojson (Show as geo: "INC_TOT_VALUE" , Attributes: "INC_MAL_VALUE", "INC_FEM_VALUE")  
         &emsp;style.json  

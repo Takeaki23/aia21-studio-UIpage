@@ -1,8 +1,6 @@
 {
     "type": "heatmap",
     "paint": {
-        // Increase the heatmap color weight by zoom level
-        // heatmap-intensity is a multiplier on top of heatmap-weight
         "heatmap-intensity": [
         "interpolate",
         ["linear"],
@@ -12,9 +10,6 @@
         9,
         3
         ],
-        // Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
-        // Begin color ramp at 0-stop with a 0-transparancy color
-        // to create a blur-like effect.
         "heatmap-color": [
         "interpolate",
         ["linear"],
@@ -32,7 +27,6 @@
         1,
         "rgb(106, 14, 225)"
         ],
-        // Adjust the heatmap radius by zoom level
         "heatmap-radius": [
         "interpolate",
         ["linear"],
