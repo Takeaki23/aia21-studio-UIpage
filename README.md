@@ -45,11 +45,11 @@ Structure for Static layer
         &emsp;style.json  
     
 * Urban Diversity  
-    * &ensp;Greeness  
+    * &ensp;Greeness  (no need to add in static layer)
         &emsp;trees.geojson (Show as geo: "tree_index" , Attributes: "name", "tree_counts")  
-    * &ensp;Public Restaurant  
-    * &ensp;Defribilator  
-    * &ensp;Drinking Water  
+    * &ensp;Public Image
+        &emsp;public_image.geojson (Show as geo: "weighted_sum" , Attributes: "name", "tree_index", "public_toilets", "drinking_fountain")  
+        &emsp;style.json  
     * &ensp;Urban Density  
 
 * Accessibility  
