@@ -27,7 +27,10 @@ Structure for Static layer
         &emsp;young  
             &emsp;&ensp;young.geojson  
             &emsp;&ensp;style.json  
-    * &ensp;Ethnicities  
+    * &ensp;Ethnic diversity  
+        &emsp;Ethnicity  
+            &emsp;&ensp;div_ethnic_diversity_index.geojson (Show as geo: "diversity_index" , Attributes: "afro_ratio", "asian_ratio", "mid_east_ratio", "south_asian_ratio", "latinx_ratio", "european_ratio")  
+            &emsp;&ensp;style.json  
         &emsp;Afro  
         &emsp;Asian  
         &emsp;Europian  

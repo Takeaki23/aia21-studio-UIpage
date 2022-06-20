@@ -1,46 +1,19 @@
 {
-    "type": "heatmap",
+    "type": "fill",
     "paint": {
-        // Increase the heatmap color weight by zoom level
-        // heatmap-intensity is a multiplier on top of heatmap-weight
-        "heatmap-intensity": [
+        "fill-color": [
         "interpolate",
         ["linear"],
-        ["zoom"],
-        0,
-        1,
-        9,
-        3
+        ["get", "diversity_index"],
+        1.0,
+        "plum",
+        1.5,
+        "violet",
+        2.0,
+        "purple",
+        2.5,
+        "indigo"
         ],
-        // Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
-        // Begin color ramp at 0-stop with a 0-transparancy color
-        // to create a blur-like effect.
-        "heatmap-color": [
-        "interpolate",
-        ["linear"],
-        ["heatmap-density"],
-        0,
-        "rgba(240, 208, 225,0)",
-        0.2,
-        "rgb(204, 74, 225)",
-        0.4,
-        "rgb(129, 74, 225)",
-        0.6,
-        "rgb(253,219,199)",
-        0.8,
-        "rgb(129, 14, 225)",
-        1,
-        "rgb(106, 14, 225)"
-        ],
-        // Adjust the heatmap radius by zoom level
-        "heatmap-radius": [
-        "interpolate",
-        ["linear"],
-        ["zoom"],
-        0,
-        2,
-        9,
-        20
-        ]
-    }
+        "fill-opacity": 0.75
+        }
 }
