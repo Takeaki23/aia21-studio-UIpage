@@ -6,7 +6,7 @@
         "line-gradient": [
         "interpolate",
         ["linear"],
-        ["wheelchair_friendly_index"],
+        ["get", "wheelchair_friendly_index"],
         0,
         "white",
         0.1,

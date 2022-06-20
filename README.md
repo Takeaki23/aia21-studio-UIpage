@@ -45,7 +45,7 @@ Structure for Static layer
         &emsp;style.json  
     
 * Urban Diversity  
-    * &ensp;Greeness  (no need to add in static layer)
+    * &ensp;Greeness  
         &emsp;trees.geojson (Show as geo: "tree_index" , Attributes: "name", "tree_counts")  
         &emsp;style.json  
     * &ensp;Public Image

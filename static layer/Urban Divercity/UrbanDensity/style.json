@@ -2,6 +2,7 @@
     "type": "circle",
     "paint": {
         "circle-color": "green",
-        "circle-radius": "urban density"
+        "circle-radius": "urban density",
+        "circle-opacity": 0
         }
 }

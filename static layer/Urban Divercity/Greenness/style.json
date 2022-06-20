@@ -6,7 +6,7 @@
         "line-gradient": [
         "interpolate",
         ["linear"],
-        ["tree_index"],
+        ["get", "tree_index"],
         0,
         "white",
         0.1,

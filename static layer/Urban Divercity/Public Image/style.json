@@ -6,7 +6,7 @@
         "line-gradient": [
         "interpolate",
         ["linear"],
-        ["weighted_sum"],
+        ["get", "weighted_sum"],
         0,
         "white",
         0.1,
