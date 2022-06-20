@@ -52,7 +52,14 @@ Structure for Static layer
         &emsp;public_image.geojson (Show as geo: "weighted_sum" , Attributes: "name", "tree_index", "public_toilets", "drinking_fountain")  
         &emsp;style.json  
     * &ensp;Urban Density  
+        &emsp;urban_density.geojson (Show as geo: "urban_density")  
+        &emsp;style.json  
 
 * Accessibility  
-    * &ensp;Street width  
+    * &ensp;Physical  
+        &emsp;acc_wheelchair_friendly.geojson (Show as geo: "wheelchair_friendly_index" , Attributes: "name", "elevators", "low_sidewalk", "sidewalk_width", "disabled_parking")  
+        &emsp;style.json  
+    * &ensp;Visual  
+        &emsp;acc_visual_friendly.geojson (Show as geo: "visual_friendly_index" , Attributes: "name", "acoustic_lights", "tactile_sidewalks", "low_sidewalk")  
+        &emsp;style.json  
 

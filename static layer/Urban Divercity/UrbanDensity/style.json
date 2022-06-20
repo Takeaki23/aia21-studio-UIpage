@@ -1,31 +1,7 @@
 {
-    "type": "line",
+    "type": "circle",
     "paint": {
-        "line-color": "gold",
-        "line-width": 1,
-        // 'line-gradient' must be specified using an expression
-        // with the special 'line-progress' property
-        "line-gradient": [
-        "interpolate",
-        ["linear"],
-        ["line-progress"],
-        0,
-        "white",
-        0.1,
-        "lightyellow",
-        0.3,
-        "lemonchiffon",
-        0.5,
-        "khaki",
-        0.7,
-        "yellow",
-        1,
-        "gold"
-        ]
-        },
-
-    "layout": {
-        "line-cap": "round",
-        "line-join": "round"
+        "circle-color": "green",
+        "circle-radius": "urban density"
         }
 }
