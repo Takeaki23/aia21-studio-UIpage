@@ -16,8 +16,8 @@ https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/
 
 Structure for Static layer
 
-BIO
-    Age
+BIO\n
+    Age\n
         Adult
             adult.geojson
             style.json
@@ -52,4 +52,4 @@ Urban Diversity
     Urban Density
 Accessibility
     Street width
-    
+
