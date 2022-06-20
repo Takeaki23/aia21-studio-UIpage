@@ -16,7 +16,7 @@ https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/
 
 Structure for Static layer
 
-*BIO  
+* BIO  
     Age  
         Adult  
             adult.geojson  
@@ -44,13 +44,13 @@ Structure for Static layer
         Religion.geojson (Show as geo: "rom-cath" , Attributes: "evang", "jew", "islam", "ortho", "other", "without")  
         style.json  
     
-*Urban Diversity  
+* Urban Diversity  
     Greeness  
     Public Restaurant  
     Defribilator  
     Drinking Water  
     Urban Density  
 
-*Accessibility  
+* Accessibility  
     Street width  
 
