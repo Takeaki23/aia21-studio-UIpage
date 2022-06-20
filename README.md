@@ -17,40 +17,40 @@ https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/
 Structure for Static layer
 
 * BIO  
-    Age  
-        Adult  
-            adult.geojson  
-            style.json  
-        old  
-            old.geojson  
-            style.json  
-        young  
-            young.geojson  
-            style.json  
-    Ethnicities  
-        Afro  
-        Asian  
-        Europian  
-        Latinx  
-        Mid_east  
-        South_asian  
-    Income  
-        Income.geojson (Show as geo: "INC_TOT_VALUE" , Attributes: "INC_MAL_VALUE", "INC_FEM_VALUE")  
-        style.json  
-    Population  
-        Population.geojson (Show as geo: "total_pop" , Attributes: tot_m"en, "tot_wom", "tot_aus_ratio", "tot_foreign_ratio", "density")  
-        style.json  
-    Religion  
-        Religion.geojson (Show as geo: "rom-cath" , Attributes: "evang", "jew", "islam", "ortho", "other", "without")  
-        style.json  
+    &emsp;Age  
+        &emsp;Adult  
+            &emsp;adult.geojson  
+            &emsp;style.json  
+        &emsp;old  
+            &emsp;old.geojson  
+            &emsp;style.json  
+        &emsp;young  
+            &emsp;young.geojson  
+            &emsp;style.json  
+    &emsp;Ethnicities  
+        &emsp;Afro  
+        &emsp;Asian  
+        &emsp;Europian  
+        &emsp;Latinx  
+        &emsp;Mid_east  
+        &emsp;South_asian  
+    &emsp;Income  
+        &emsp;Income.geojson (Show as geo: "INC_TOT_VALUE" , Attributes: "INC_MAL_VALUE", "INC_FEM_VALUE")  
+        &emsp;style.json  
+    &emsp;Population  
+        &emsp;Population.geojson (Show as geo: "total_pop" , Attributes: tot_m"en, "tot_wom", "tot_aus_ratio", &emsp;"tot_foreign_ratio", "density")  
+        &emsp;style.json  
+    &emsp;Religion  
+        &emsp;Religion.geojson (Show as geo: "rom-cath" , Attributes: "evang", "jew", "islam", "ortho", "other", "without")  
+        &emsp;style.json  
     
 * Urban Diversity  
-    Greeness  
-    Public Restaurant  
-    Defribilator  
-    Drinking Water  
-    Urban Density  
+    &emsp;Greeness  
+    &emsp;Public Restaurant  
+    &emsp;Defribilator  
+    &emsp;Drinking Water  
+    &emsp;Urban Density  
 
 * Accessibility  
-    Street width  
+    &emsp;Street width  
 
