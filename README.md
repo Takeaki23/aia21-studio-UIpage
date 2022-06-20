@@ -17,40 +17,40 @@ https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/
 Structure for Static layer
 
 * BIO  
-    &emsp;Age  
+    &ensp;Age  
         &emsp;Adult  
-            &emsp;adult.geojson  
-            &emsp;style.json  
+            &emsp;&ensp;adult.geojson  
+            &emsp;&ensp;style.json  
         &emsp;old  
-            &emsp;old.geojson  
-            &emsp;style.json  
+            &emsp;&ensp;old.geojson  
+            &emsp;&ensp;style.json  
         &emsp;young  
-            &emsp;young.geojson  
-            &emsp;style.json  
-    &emsp;Ethnicities  
+            &emsp;&ensp;young.geojson  
+            &emsp;&ensp;style.json  
+    &ensp;Ethnicities  
         &emsp;Afro  
         &emsp;Asian  
         &emsp;Europian  
         &emsp;Latinx  
         &emsp;Mid_east  
         &emsp;South_asian  
-    &emsp;Income  
+    &ensp;Income  
         &emsp;Income.geojson (Show as geo: "INC_TOT_VALUE" , Attributes: "INC_MAL_VALUE", "INC_FEM_VALUE")  
         &emsp;style.json  
-    &emsp;Population  
+    &ensp;Population  
         &emsp;Population.geojson (Show as geo: "total_pop" , Attributes: tot_m"en, "tot_wom", "tot_aus_ratio", &emsp;"tot_foreign_ratio", "density")  
         &emsp;style.json  
-    &emsp;Religion  
+    &ensp;Religion  
         &emsp;Religion.geojson (Show as geo: "rom-cath" , Attributes: "evang", "jew", "islam", "ortho", "other", "without")  
         &emsp;style.json  
     
 * Urban Diversity  
-    &emsp;Greeness  
-    &emsp;Public Restaurant  
-    &emsp;Defribilator  
-    &emsp;Drinking Water  
-    &emsp;Urban Density  
+    &ensp;Greeness  
+    &ensp;Public Restaurant  
+    &ensp;Defribilator  
+    &ensp;Drinking Water  
+    &ensp;Urban Density  
 
 * Accessibility  
-    &emsp;Street width  
+    &ensp;Street width  
 
