@@ -4,16 +4,16 @@
         "fill-color": [
         "interpolate",
         ["linear"],
-        ["get", "old"],
-        15,
+        ["get", "adult"],
+        0,
         "#F2F12D",
-        20,
-        "#DA9C20",
         25,
+        "#DA9C20",
+        50,
         "#CA8323",
-        30,
+        75,
         "#B86B25",
-        35,
+        100,
         "#B86B25"
         ],
         "fill-opacity": 0.75
