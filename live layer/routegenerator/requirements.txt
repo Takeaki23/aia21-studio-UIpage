@@ -1,9 +1,10 @@
-import matplotlib.pyplot as plt
-import networkx as nx
-import osmnx as ox
-import geopandas as gpd
-import pandas as pd
-import momepy
-import shapely
+matplotlib.pyplot == 3.5.2
+networkx == 2.8.4
+osmnx == 1.2.1
+geopandas == 0.11.0
+pandas == 1.4.2
+fiona == 1.8.21
+momepy == 0.5.3
+shapely == 1.8.2
 
-from random import random
+random == python 3.10.4
