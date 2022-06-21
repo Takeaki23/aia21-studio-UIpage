@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Why Not - Clubdiskothek" }, "geometry": { "type": "Point", "coordinates": [ 16.3685735, 48.2125187 ] } },
+{ "type": "Feature", "properties": { "name": "Gugg" }, "geometry": { "type": "Point", "coordinates": [ 16.3617915, 48.1962274 ] } },
+{ "type": "Feature", "properties": { "name": "SMartCafé" }, "geometry": { "type": "Point", "coordinates": [ 16.3588836, 48.1985619 ] } },
+{ "type": "Feature", "properties": { "name": "Café Savoy" }, "geometry": { "type": "Point", "coordinates": [ 16.3601058, 48.1976235 ] } },
+{ "type": "Feature", "properties": { "name": "Sixta" }, "geometry": { "type": "Point", "coordinates": [ 16.359529, 48.1939441 ] } },
+{ "type": "Feature", "properties": { "name": "Sling" }, "geometry": { "type": "Point", "coordinates": [ 16.3615963, 48.1945532 ] } },
+{ "type": "Feature", "properties": { "name": "Club Hardon Vienna" }, "geometry": { "type": "Point", "coordinates": [ 16.3571147, 48.1961447 ] } },
+{ "type": "Feature", "properties": { "name": "Felixx" }, "geometry": { "type": "Point", "coordinates": [ 16.3619908, 48.2006846 ] } },
+{ "type": "Feature", "properties": { "name": "Village" }, "geometry": { "type": "Point", "coordinates": [ 16.358101, 48.1979026 ] } },
+{ "type": "Feature", "properties": { "name": "The Hive" }, "geometry": { "type": "Point", "coordinates": [ 16.3553169, 48.1965154 ] } },
+{ "type": "Feature", "properties": { "name": "Kisss" }, "geometry": { "type": "Point", "coordinates": [ 16.3545314, 48.1972602 ] } },
+{ "type": "Feature", "properties": { "name": "Marea Alta" }, "geometry": { "type": "Point", "coordinates": [ 16.3585181, 48.1990757 ] } },
+{ "type": "Feature", "properties": { "name": "Eagle Bar" }, "geometry": { "type": "Point", "coordinates": [ 16.3517739, 48.196961 ] } },
+{ "type": "Feature", "properties": { "name": "Red Carpet" }, "geometry": { "type": "Point", "coordinates": [ 16.3574004, 48.1970805 ] } },
+{ "type": "Feature", "properties": { "name": "Kaiserbründl" }, "geometry": { "type": "Point", "coordinates": [ 16.3744283, 48.2059959 ] } },
+{ "type": "Feature", "properties": { "name": "Apollo city" }, "geometry": { "type": "Point", "coordinates": [ 16.3385101, 48.2059042 ] } },
+{ "type": "Feature", "properties": { "name": "Römersauna" }, "geometry": { "type": "Point", "coordinates": [ 16.357739, 48.1932241 ] } },
+{ "type": "Feature", "properties": { "name": "Sportsauna" }, "geometry": { "type": "Point", "coordinates": [ 16.3529542, 48.2073825 ] } },
+{ "type": "Feature", "properties": { "name": "Löwenherz" }, "geometry": { "type": "Point", "coordinates": [ 16.3608095, 48.2174357 ] } },
+{ "type": "Feature", "properties": { "name": "Man for Man" }, "geometry": { "type": "Point", "coordinates": [ 16.3567138, 48.1959684 ] } }
+]
+}
