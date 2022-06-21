@@ -1,24 +1,10 @@
 {
-    "type": "line",
-    "paint": {
-        "line-color": "Yellow",
-        "line-width": 5
-        },
-
+    "type": "symbol",
     "layout": {
-        "line-cap": "round",
-        "line-join": "round"
-        }
-},
-{
-    "type": "point",
+    "icon-image": "near_me.svg",
+    "icon-size": 0.5
+    }
     "paint": {
-        "line-color": "Yellow",
-        "line-width": 5
-        },
-
-    "layout": {
-        "line-cap": "round",
-        "line-join": "round"
+        "icon-color": "purple",
         }
 }
