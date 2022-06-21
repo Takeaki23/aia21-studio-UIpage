@@ -14,7 +14,8 @@ https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#symbol
 gradient line doc
 https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/
 
-Structure for Static layer
+
+## Structure for Static layer
 
 * BIO  
     * &ensp;Age  
@@ -48,6 +49,9 @@ Structure for Static layer
             &emsp;South_asian  
                 &emsp;&ensp;div_south_asian_heatmap.geojson  
                 &emsp;&ensp;style.json  
+            &emsp;LGBTQ  
+                &emsp;&ensp;div_lgbtq_heatmap.geojson  
+                &emsp;&ensp;style.json  
     * &ensp;Income  
         &emsp;Income.geojson (Show as geo: "INC_TOT_VALUE" , Attributes: "INC_MAL_VALUE", "INC_FEM_VALUE")  
         &emsp;style.json  
@@ -77,3 +81,19 @@ Structure for Static layer
         &emsp;acc_visual_friendly.geojson (Show as geo: "visual_friendly_index" , Attributes: "name", "acoustic_lights", "tactile_sidewalks", "low_sidewalk")  
         &emsp;style.json  
 
+
+## Structure for live layer
+
+* POIselector
+    * &ensp;geo.geojson  
+    * &ensp;POI_live_layer.py  
+    * &ensp;requirements.txt  
+    * &ensp;style.json  
+    * &ensp;near_me.svg  
+        
+
+* RouteGenerator  
+    * &ensp;geo.geojson  
+    * &ensp;ROUTE_live_layer.py  
+    * &ensp;requirements.txt  
+    * &ensp;style.json  

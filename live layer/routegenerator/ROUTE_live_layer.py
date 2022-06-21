@@ -29,7 +29,7 @@ def call(age:str, gender:str, ethnicity:str, religion:str, special_needs_visual:
     
     #-----------------------------------CITY STREETS DATAFRAME---------------------------------------#
     #GET PUBLIC IMAGE DATA
-    urban_image_url = 'https://drive.google.com/file/d/1-6ze3N_dlBBNcixZK9a33Iu8WqAZCY9m/view?usp=sharing'
+    urban_image_url = 'https://drive.google.com/file/d/1-KDBSknNJ04vhp1I1xHILhZ7pJeRQDuP/view?usp=sharing'
     urban_image_url='https://drive.google.com/uc?id=' + urban_image_url.split('/')[-2]
     urban_image = gpd.read_file(urban_image_url)
 
