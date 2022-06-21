@@ -120,7 +120,7 @@ def call(age:str, gender:str, ethnicity:str, religion:str, special_needs_visual:
     nearest =origin_proj .sindex.nearest(poi_proj.geometry, max_distance = 1000, return_distance = True)
 
     poi_output = poi_selected.iloc[nearest[0][0], :]
-    poi_output_json = poi_output.to_json()
+    poi_output_geojson = poi_output.to_geojson()
 
-    return poi_output_json 
+    return poi_output_geojson 
      #-----------------------------------REDCUE POI OPTIONS TO A CERTAIN RANGE---------------------------------------#
