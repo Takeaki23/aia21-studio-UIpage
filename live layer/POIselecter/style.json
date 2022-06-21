@@ -3,8 +3,8 @@
     "layout": {
     "icon-image": "near_me.svg",
     "icon-size": 0.5
-    }
+    },
     "paint": {
-        "icon-color": "purple",
+        "icon-color": "purple"
         }
 }
