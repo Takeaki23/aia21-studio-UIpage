@@ -4,7 +4,7 @@
         "fill-color": [
         "interpolate",
         ["linear"],
-        ["get", "adult"],
+        ["get", "old"],
         0,
         "#F2F12D",
         25,

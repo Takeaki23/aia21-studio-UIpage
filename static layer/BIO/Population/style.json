@@ -4,7 +4,7 @@
         "fill-color": [
         "interpolate",
         ["linear"],
-        ["total_pop"],
+        ["get","total_pop"],
         0,
         "#D6EAF8",
         50000,

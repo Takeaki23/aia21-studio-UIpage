@@ -4,7 +4,7 @@
         "fill-color": [
         "interpolate",
         ["linear"],
-        ["rom-cath"],
+        ["get","rom-cath"],
         0,
         "#E59866",
         25,
