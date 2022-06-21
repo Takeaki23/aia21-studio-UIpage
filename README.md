@@ -22,10 +22,10 @@ https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/
         &emsp;Adult  
             &emsp;&ensp;adult.geojson  
             &emsp;&ensp;style.json  
-        &emsp;old  
+        &emsp;Old  
             &emsp;&ensp;old.geojson  
             &emsp;&ensp;style.json  
-        &emsp;young  
+        &emsp;Young  
             &emsp;&ensp;young.geojson  
             &emsp;&ensp;style.json  
     * &ensp;Ethnic diversity  
